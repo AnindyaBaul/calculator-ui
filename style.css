@@ -22,7 +22,7 @@
     }
 
     .screen {
-        height: 460px;
+        height: 300px;
         display:flex;
         justify-content: flex-end;
         align-items: flex-end;
