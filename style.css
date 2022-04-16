@@ -1,0 +1,74 @@
+@media only screen and (max-width:688px) {
+    body {
+        background-color: aliceblue;
+        /* transform: scale(); */
+    }
+    section{
+        /* height: 600px; */
+        /* transform: scale(0.5); */
+    }
+
+    .border {
+        border: 1px solid red;
+       
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        color: orangered;
+        margin-top: 13px;
+    }
+
+    .screen {
+        height: 460px;
+        display:flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    h1{
+        display: inline-block;
+        margin: 0;
+        padding: o;
+        font-size: 40px;
+    }
+    .key{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* height: 300px; */
+        row-gap: 10px;
+        column-gap: 10px;
+        height:;
+        font-size: 40px;
+       
+    }
+    .btn{
+       
+        height: 65px;
+        place-content: center;
+        display: flex;
+        place-items: center;
+        background-color: rgb(245, 229, 229);
+
+    }
+    .orange{
+        color: orangered;
+    }
+    #sp{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .fa-moon{
+        transform: rotate(12deg);
+        
+    }
+    small{
+        text-align: center;
+        display: block;
+    }
+
+
+}
